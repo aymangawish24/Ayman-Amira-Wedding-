@@ -7,16 +7,16 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
-<meta name="color-scheme" content="dark">
+<meta name="color-scheme" content="light">
 <style>
   :root{
-    --bottle:#16241f;
-    --bottle-deep:#0d1613;
-    --ivory:#f3ecdd;
-    --gold:#c8a24c;
-    --gold-soft:#dfc784;
+    --bottle:#fdf6ea;
+    --bottle-deep:#f8ecd8;
+    --ivory:#4a3418;
+    --gold:#b8863a;
+    --gold-soft:#a3782f;
     --rose:#c99a83;
-    --line: rgba(200,162,76,0.35);
+    --line: rgba(184,134,58,0.3);
   }
   *{box-sizing:border-box; margin:0; padding:0;}
   *{
@@ -24,7 +24,7 @@
     print-color-adjust:exact !important;
     color-adjust:exact !important;
   }
-  html{scroll-behavior:smooth; background:#0d1613;}
+  html{scroll-behavior:smooth; background:#f8ecd8;}
   body{
     background:var(--bottle-deep);
     color:var(--ivory);
@@ -79,7 +79,7 @@
     animation:fadeUp 1s ease forwards .3s;
   }
   .hero-names{
-    font-size:clamp(3.4rem, 13vw, 7rem);
+    font-size:clamp(2.3rem, 8.5vw, 4.4rem);
     font-weight:500;
     font-style:italic;
     color:var(--ivory);
@@ -89,7 +89,9 @@
   }
   .hero-amp{ color:var(--gold); font-style:normal; padding:0 .15em;}
   .hero-ar{
-    font-size:clamp(1.6rem, 5vw, 2.4rem);
+    font-family:'Aref Ruqaa', serif;
+    font-weight:700;
+    font-size:clamp(2.1rem, 8vw, 3.6rem);
     color:var(--gold-soft);
     margin-top:14px;
     opacity:0;
@@ -162,7 +164,7 @@
 
   /* CLOSING */
   .closing{ padding-bottom:70px; }
-  .monogram{ font-family:'Cormorant Garamond', serif; font-style:italic; font-size:2.4rem; color:var(--gold); margin-top:30px; letter-spacing:.06em;}
+  .monogram{ font-family:'Cormorant Garamond', serif; font-style:italic; font-size:1.9rem; color:var(--gold); margin-top:30px; letter-spacing:.03em;}
 
   /* MUSIC TOGGLE */
   .music-toggle{
@@ -231,7 +233,7 @@
   .gate-enter{ animation:gatePulse 2.6s ease-in-out infinite; }
 </style>
 </head>
-<body style="background:#0d1613;">
+<body style="background:#f8ecd8;">
 
 <!-- SPLASH GATE -->
 <div id="splash">
@@ -259,8 +261,8 @@
 <!-- HERO -->
 <section class="hero">
   <div class="hero-eyebrow">The Wedding Of</div>
-  <div class="hero-names en">A <span class="hero-amp">&amp;</span> A</div>
-  <div class="hero-ar ar">أيمن وأميرة</div>
+  <div class="hero-names en">Ayman <span class="hero-amp">&amp;</span> Amira</div>
+  <div class="hero-ar ar">أيمن &amp; أميره</div>
   <div class="hero-sub">
     A beautiful beginning, a warm celebration, and a night made brighter by the people we love.
     <span class="ar">نُضيء بكم أولى صفحات حكايتنا</span>
@@ -330,7 +332,7 @@
   <span class="eyebrow">From Our Hearts</span>
   <h2 class="en">Celebrate With Us</h2>
   <p class="body-en">We would love to share this beautiful beginning with you.</p>
-  <div class="monogram en">A &amp; A</div>
+  <div class="monogram en">Ayman &amp; Amira</div>
 </section>
 
 <script>
